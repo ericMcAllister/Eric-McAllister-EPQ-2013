@@ -21,6 +21,13 @@
 		DF159AA717F3687A007969B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF159A8917F3687A007969B0 /* UIKit.framework */; };
 		DF159AAF17F3687A007969B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF159AAD17F3687A007969B0 /* InfoPlist.strings */; };
 		DF159AB117F3687A007969B0 /* Eric_McAllister_EPQ_2013Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF159AB017F3687A007969B0 /* Eric_McAllister_EPQ_2013Tests.m */; };
+		DF6311311809845900893F96 /* do-git in Resources */ = {isa = PBXBuildFile; fileRef = DF63112D1809845900893F96 /* do-git */; };
+		DF6311321809845900893F96 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DF63112F1809845900893F96 /* NSDate-Utilities.m */; };
+		DF6311331809845900893F96 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DF6311301809845900893F96 /* README.md */; };
+		DF9A8E9B1807E68600B5EF7A /* Rancor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9A8E9A1807E68600B5EF7A /* Rancor.jpg */; };
+		DFB78F291805CFC000F63C87 /* UIGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB78F281805CFC000F63C87 /* UIGameView.m */; };
+		DFB78F2C1805CFDD00F63C87 /* UIGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB78F2B1805CFDD00F63C87 /* UIGameObject.m */; };
+		DFB78F2F1805D69000F63C87 /* UIGame.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB78F2E1805D69000F63C87 /* UIGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,17 @@
 		DF159AAC17F3687A007969B0 /* Eric McAllister EPQ 2013Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eric McAllister EPQ 2013Tests-Info.plist"; sourceTree = "<group>"; };
 		DF159AAE17F3687A007969B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF159AB017F3687A007969B0 /* Eric_McAllister_EPQ_2013Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eric_McAllister_EPQ_2013Tests.m; sourceTree = "<group>"; };
+		DF63112D1809845900893F96 /* do-git */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.csh; path = "do-git"; sourceTree = "<group>"; };
+		DF63112E1809845900893F96 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
+		DF63112F1809845900893F96 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
+		DF6311301809845900893F96 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DF9A8E9A1807E68600B5EF7A /* Rancor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rancor.jpg; sourceTree = "<group>"; };
+		DFB78F271805CFC000F63C87 /* UIGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGameView.h; sourceTree = "<group>"; };
+		DFB78F281805CFC000F63C87 /* UIGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGameView.m; sourceTree = "<group>"; };
+		DFB78F2A1805CFDD00F63C87 /* UIGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGameObject.h; sourceTree = "<group>"; };
+		DFB78F2B1805CFDD00F63C87 /* UIGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGameObject.m; sourceTree = "<group>"; };
+		DFB78F2D1805D69000F63C87 /* UIGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGame.h; sourceTree = "<group>"; };
+		DFB78F2E1805D69000F63C87 /* UIGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +132,18 @@
 			children = (
 				DF159A9417F3687A007969B0 /* EPQ2013AppDelegate.h */,
 				DF159A9517F3687A007969B0 /* EPQ2013AppDelegate.m */,
+				DFB78F271805CFC000F63C87 /* UIGameView.h */,
+				DFB78F281805CFC000F63C87 /* UIGameView.m */,
+				DFB78F2A1805CFDD00F63C87 /* UIGameObject.h */,
+				DFB78F2B1805CFDD00F63C87 /* UIGameObject.m */,
+				DFB78F2D1805D69000F63C87 /* UIGame.h */,
+				DFB78F2E1805D69000F63C87 /* UIGame.m */,
 				DF159A9717F3687A007969B0 /* Main.storyboard */,
 				DF159A9A17F3687A007969B0 /* EPQ2013ViewController.h */,
 				DF159A9B17F3687A007969B0 /* EPQ2013ViewController.m */,
+				DF9A8E9A1807E68600B5EF7A /* Rancor.jpg */,
 				DF159A9D17F3687A007969B0 /* Images.xcassets */,
+				DF63112C1809845900893F96 /* NSDate-Extensions-master */,
 				DF159A8C17F3687A007969B0 /* Supporting Files */,
 			);
 			path = "Eric McAllister EPQ 2013";
@@ -150,6 +176,17 @@
 				DF159AAD17F3687A007969B0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF63112C1809845900893F96 /* NSDate-Extensions-master */ = {
+			isa = PBXGroup;
+			children = (
+				DF63112D1809845900893F96 /* do-git */,
+				DF63112E1809845900893F96 /* NSDate-Utilities.h */,
+				DF63112F1809845900893F96 /* NSDate-Utilities.m */,
+				DF6311301809845900893F96 /* README.md */,
+			);
+			path = "NSDate-Extensions-master";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6311331809845900893F96 /* README.md in Resources */,
+				DF6311311809845900893F96 /* do-git in Resources */,
 				DF159A9E17F3687A007969B0 /* Images.xcassets in Resources */,
 				DF159A9017F3687A007969B0 /* InfoPlist.strings in Resources */,
+				DF9A8E9B1807E68600B5EF7A /* Rancor.jpg in Resources */,
 				DF159A9917F3687A007969B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF159A9C17F3687A007969B0 /* EPQ2013ViewController.m in Sources */,
+				DFB78F2F1805D69000F63C87 /* UIGame.m in Sources */,
 				DF159A9217F3687A007969B0 /* main.m in Sources */,
+				DFB78F291805CFC000F63C87 /* UIGameView.m in Sources */,
 				DF159A9617F3687A007969B0 /* EPQ2013AppDelegate.m in Sources */,
+				DF6311321809845900893F96 /* NSDate-Utilities.m in Sources */,
+				DFB78F2C1805CFDD00F63C87 /* UIGameObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +505,7 @@
 				DF159AB617F3687A007969B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF159AB717F3687A007969B0 /* Build configuration list for PBXNativeTarget "Eric McAllister EPQ 2013Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +514,7 @@
 				DF159AB917F3687A007969B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
