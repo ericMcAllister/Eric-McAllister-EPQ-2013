@@ -9,13 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface UIGameObject : UIImageView{
-    int a;
-    int b;
-    int c;
-    float d;
-    float e;
-    float f;
 }
-@property CGPoint *speed, *acceleration, *force;
-@property float mass;
+@property CGPoint *speed;
+@property CGPoint *acceleration, *force;
+@property float mass, d, e, f;
+@property int a, b, c;
+@property BOOL randBool;
 @end

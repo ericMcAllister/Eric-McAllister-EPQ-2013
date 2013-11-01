@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DF159A8617F3687A007969B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF159A8517F36879007969B0 /* Foundation.framework */; };
-		DF159A8817F3687A007969B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF159A8717F3687A007969B0 /* CoreGraphics.framework */; };
 		DF159A8A17F3687A007969B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF159A8917F3687A007969B0 /* UIKit.framework */; };
 		DF159A9017F3687A007969B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF159A8E17F3687A007969B0 /* InfoPlist.strings */; };
 		DF159A9217F3687A007969B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF159A9117F3687A007969B0 /* main.m */; };
@@ -25,6 +24,27 @@
 		DF6311321809845900893F96 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DF63112F1809845900893F96 /* NSDate-Utilities.m */; };
 		DF6311331809845900893F96 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DF6311301809845900893F96 /* README.md */; };
 		DF9A8E9B1807E68600B5EF7A /* Rancor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9A8E9A1807E68600B5EF7A /* Rancor.jpg */; };
+		DFAD1ABA1823DC4D00FC7F3C /* Blue Square.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB11823DC4D00FC7F3C /* Blue Square.png */; };
+		DFAD1ABB1823DC4D00FC7F3C /* Blue Star.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB21823DC4D00FC7F3C /* Blue Star.png */; };
+		DFAD1ABC1823DC4D00FC7F3C /* Blue Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB31823DC4D00FC7F3C /* Blue Triangle.png */; };
+		DFAD1ABD1823DC4D00FC7F3C /* Green Square.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB41823DC4D00FC7F3C /* Green Square.png */; };
+		DFAD1ABE1823DC4D00FC7F3C /* Green Star.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB51823DC4D00FC7F3C /* Green Star.png */; };
+		DFAD1ABF1823DC4D00FC7F3C /* Green Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB61823DC4D00FC7F3C /* Green Triangle.png */; };
+		DFAD1AC01823DC4D00FC7F3C /* Yellow Square.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB71823DC4D00FC7F3C /* Yellow Square.png */; };
+		DFAD1AC11823DC4D00FC7F3C /* Yellow Star.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB81823DC4D00FC7F3C /* Yellow Star.png */; };
+		DFAD1AC21823DC4D00FC7F3C /* Yellow Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAD1AB91823DC4D00FC7F3C /* Yellow Triangle.png */; };
+		DFAF2C8518214DE200CCAA31 /* Yellow Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C8418214DE200CCAA31 /* Yellow Circle.png */; };
+		DFAF2C8718214DE800CCAA31 /* Red Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C8618214DE800CCAA31 /* Red Circle.png */; };
+		DFAF2C8918214DF000CCAA31 /* Green Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C8818214DF000CCAA31 /* Green Circle.png */; };
+		DFAF2C8C18214DF900CCAA31 /* Black Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C8A18214DF900CCAA31 /* Black Circle.png */; };
+		DFAF2C8D18214DF900CCAA31 /* Blue Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C8B18214DF900CCAA31 /* Blue Circle.png */; };
+		DFAF2C8F1821521600CCAA31 /* Coloured Rectangle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C8E1821521600CCAA31 /* Coloured Rectangle 2.png */; };
+		DFAF2C9518215AAA00CCAA31 /* Pentagon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C9018215AAA00CCAA31 /* Pentagon.png */; };
+		DFAF2C9618215AAA00CCAA31 /* Red Hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C9118215AAA00CCAA31 /* Red Hexagon.png */; };
+		DFAF2C9718215AAA00CCAA31 /* Red Square.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C9218215AAA00CCAA31 /* Red Square.png */; };
+		DFAF2C9818215AAA00CCAA31 /* Red Star.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C9318215AAA00CCAA31 /* Red Star.png */; };
+		DFAF2C9918215AAA00CCAA31 /* Red Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAF2C9418215AAA00CCAA31 /* Red Triangle.png */; };
+		DFAF2C9A1821AABD00CCAA31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF159A8717F3687A007969B0 /* CoreGraphics.framework */; };
 		DFB78F291805CFC000F63C87 /* UIGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB78F281805CFC000F63C87 /* UIGameView.m */; };
 		DFB78F2C1805CFDD00F63C87 /* UIGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB78F2B1805CFDD00F63C87 /* UIGameObject.m */; };
 		DFB78F2F1805D69000F63C87 /* UIGame.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB78F2E1805D69000F63C87 /* UIGame.m */; };
@@ -65,6 +85,26 @@
 		DF63112F1809845900893F96 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
 		DF6311301809845900893F96 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DF9A8E9A1807E68600B5EF7A /* Rancor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rancor.jpg; sourceTree = "<group>"; };
+		DFAD1AB11823DC4D00FC7F3C /* Blue Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Square.png"; sourceTree = "<group>"; };
+		DFAD1AB21823DC4D00FC7F3C /* Blue Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Star.png"; sourceTree = "<group>"; };
+		DFAD1AB31823DC4D00FC7F3C /* Blue Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Triangle.png"; sourceTree = "<group>"; };
+		DFAD1AB41823DC4D00FC7F3C /* Green Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Square.png"; sourceTree = "<group>"; };
+		DFAD1AB51823DC4D00FC7F3C /* Green Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Star.png"; sourceTree = "<group>"; };
+		DFAD1AB61823DC4D00FC7F3C /* Green Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Triangle.png"; sourceTree = "<group>"; };
+		DFAD1AB71823DC4D00FC7F3C /* Yellow Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Square.png"; sourceTree = "<group>"; };
+		DFAD1AB81823DC4D00FC7F3C /* Yellow Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Star.png"; sourceTree = "<group>"; };
+		DFAD1AB91823DC4D00FC7F3C /* Yellow Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Triangle.png"; sourceTree = "<group>"; };
+		DFAF2C8418214DE200CCAA31 /* Yellow Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Circle.png"; sourceTree = "<group>"; };
+		DFAF2C8618214DE800CCAA31 /* Red Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Circle.png"; sourceTree = "<group>"; };
+		DFAF2C8818214DF000CCAA31 /* Green Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Circle.png"; sourceTree = "<group>"; };
+		DFAF2C8A18214DF900CCAA31 /* Black Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Circle.png"; sourceTree = "<group>"; };
+		DFAF2C8B18214DF900CCAA31 /* Blue Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Circle.png"; sourceTree = "<group>"; };
+		DFAF2C8E1821521600CCAA31 /* Coloured Rectangle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coloured Rectangle 2.png"; sourceTree = "<group>"; };
+		DFAF2C9018215AAA00CCAA31 /* Pentagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pentagon.png; sourceTree = "<group>"; };
+		DFAF2C9118215AAA00CCAA31 /* Red Hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Hexagon.png"; sourceTree = "<group>"; };
+		DFAF2C9218215AAA00CCAA31 /* Red Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Square.png"; sourceTree = "<group>"; };
+		DFAF2C9318215AAA00CCAA31 /* Red Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Star.png"; sourceTree = "<group>"; };
+		DFAF2C9418215AAA00CCAA31 /* Red Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Triangle.png"; sourceTree = "<group>"; };
 		DFB78F271805CFC000F63C87 /* UIGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGameView.h; sourceTree = "<group>"; };
 		DFB78F281805CFC000F63C87 /* UIGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGameView.m; sourceTree = "<group>"; };
 		DFB78F2A1805CFDD00F63C87 /* UIGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGameObject.h; sourceTree = "<group>"; };
@@ -78,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF159A8817F3687A007969B0 /* CoreGraphics.framework in Frameworks */,
+				DFAF2C9A1821AABD00CCAA31 /* CoreGraphics.framework in Frameworks */,
 				DF159A8A17F3687A007969B0 /* UIKit.framework in Frameworks */,
 				DF159A8617F3687A007969B0 /* Foundation.framework in Frameworks */,
 			);
@@ -152,6 +192,26 @@
 		DF159A8C17F3687A007969B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFAD1AB11823DC4D00FC7F3C /* Blue Square.png */,
+				DFAD1AB21823DC4D00FC7F3C /* Blue Star.png */,
+				DFAD1AB31823DC4D00FC7F3C /* Blue Triangle.png */,
+				DFAD1AB41823DC4D00FC7F3C /* Green Square.png */,
+				DFAD1AB51823DC4D00FC7F3C /* Green Star.png */,
+				DFAD1AB61823DC4D00FC7F3C /* Green Triangle.png */,
+				DFAD1AB71823DC4D00FC7F3C /* Yellow Square.png */,
+				DFAD1AB81823DC4D00FC7F3C /* Yellow Star.png */,
+				DFAD1AB91823DC4D00FC7F3C /* Yellow Triangle.png */,
+				DFAF2C9018215AAA00CCAA31 /* Pentagon.png */,
+				DFAF2C9118215AAA00CCAA31 /* Red Hexagon.png */,
+				DFAF2C9218215AAA00CCAA31 /* Red Square.png */,
+				DFAF2C9318215AAA00CCAA31 /* Red Star.png */,
+				DFAF2C9418215AAA00CCAA31 /* Red Triangle.png */,
+				DFAF2C8E1821521600CCAA31 /* Coloured Rectangle 2.png */,
+				DFAF2C8A18214DF900CCAA31 /* Black Circle.png */,
+				DFAF2C8B18214DF900CCAA31 /* Blue Circle.png */,
+				DFAF2C8818214DF000CCAA31 /* Green Circle.png */,
+				DFAF2C8618214DE800CCAA31 /* Red Circle.png */,
+				DFAF2C8418214DE200CCAA31 /* Yellow Circle.png */,
 				DF159A8D17F3687A007969B0 /* Eric McAllister EPQ 2013-Info.plist */,
 				DF159A8E17F3687A007969B0 /* InfoPlist.strings */,
 				DF159A9117F3687A007969B0 /* main.m */,
@@ -267,11 +327,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF6311331809845900893F96 /* README.md in Resources */,
+				DFAD1AC01823DC4D00FC7F3C /* Yellow Square.png in Resources */,
+				DFAF2C9618215AAA00CCAA31 /* Red Hexagon.png in Resources */,
 				DF6311311809845900893F96 /* do-git in Resources */,
+				DFAF2C9918215AAA00CCAA31 /* Red Triangle.png in Resources */,
+				DFAF2C8D18214DF900CCAA31 /* Blue Circle.png in Resources */,
+				DFAD1ABD1823DC4D00FC7F3C /* Green Square.png in Resources */,
+				DFAF2C9818215AAA00CCAA31 /* Red Star.png in Resources */,
 				DF159A9E17F3687A007969B0 /* Images.xcassets in Resources */,
+				DFAF2C9718215AAA00CCAA31 /* Red Square.png in Resources */,
+				DFAD1ABF1823DC4D00FC7F3C /* Green Triangle.png in Resources */,
+				DFAD1AC11823DC4D00FC7F3C /* Yellow Star.png in Resources */,
 				DF159A9017F3687A007969B0 /* InfoPlist.strings in Resources */,
+				DFAD1ABE1823DC4D00FC7F3C /* Green Star.png in Resources */,
+				DFAF2C8918214DF000CCAA31 /* Green Circle.png in Resources */,
+				DFAD1ABC1823DC4D00FC7F3C /* Blue Triangle.png in Resources */,
+				DFAD1ABB1823DC4D00FC7F3C /* Blue Star.png in Resources */,
 				DF9A8E9B1807E68600B5EF7A /* Rancor.jpg in Resources */,
+				DFAF2C9518215AAA00CCAA31 /* Pentagon.png in Resources */,
+				DFAF2C8F1821521600CCAA31 /* Coloured Rectangle 2.png in Resources */,
+				DFAF2C8C18214DF900CCAA31 /* Black Circle.png in Resources */,
+				DFAF2C8518214DE200CCAA31 /* Yellow Circle.png in Resources */,
+				DFAF2C8718214DE800CCAA31 /* Red Circle.png in Resources */,
 				DF159A9917F3687A007969B0 /* Main.storyboard in Resources */,
+				DFAD1AC21823DC4D00FC7F3C /* Yellow Triangle.png in Resources */,
+				DFAD1ABA1823DC4D00FC7F3C /* Blue Square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

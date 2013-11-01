@@ -10,9 +10,8 @@
 #import "UIGame.h"
 
 @interface UIGameView : UIView{
-    int j;
 }
-@property int i;
+@property int i, j;
 @property (nonatomic, retain) UIGame *game;
 @property NSTimer *gameTimer;
 @property BOOL objectiveAchieved;

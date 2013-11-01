@@ -11,9 +11,11 @@
 @implementation UIGameObject
 @synthesize speed, acceleration, force;
 @synthesize mass;
+@synthesize a, b, c;
+@synthesize d, e, f;
+@synthesize randBool;
 
-- (id)initWithFrame:(CGRect)frame
-{
+- (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
